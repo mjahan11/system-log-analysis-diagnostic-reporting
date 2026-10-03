@@ -63,14 +63,9 @@ SQL queries were developed to analyze system and application logs and identify r
 ### 1. Total System Errors
 
 The total number of error events was calculated to understand the overall error volume in the dataset.
-
-```sql
-SELECT
-    COUNT(*) AS TotalErrors
-FROM SystemLogs
-WHERE LogType = 'ERROR';
-
 <img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis1.jpg" />
+
+
 
 ## Troubleshooting Workflow
 
