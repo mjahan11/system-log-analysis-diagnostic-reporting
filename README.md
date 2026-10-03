@@ -122,6 +122,11 @@ The log analysis is used as an initial diagnostic step to narrow the scope of a 
 
 ## Example Diagnostic Scenario
 
+A SQL view was created to provide a consolidated diagnostic report by computer. The report combines log volume, error counts, and response-time metrics to help support technicians identify systems requiring further investigation.
+
+<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis3.jpg" />
+
+
 ### Application Server Connection Failure
 
 **Observed Issue:**  
