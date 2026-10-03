@@ -123,13 +123,98 @@ The log analysis is used as an initial diagnostic step to narrow the scope of a 
     Escalate the issue to the appropriate server, network, application, or security team when it cannot be resolved at the support level.
 
 ## Example Diagnostic Scenario
+## Example Diagnostic Scenario
+
+### Application Server Connection Failure
+
+**Observed Issue:**  
+The log analysis identified repeated application-server connection failures associated with error code **E500**.
+
+**Affected Computer:**  
+PC-002
+
+**Error Frequency:**  
+6 recorded E500 errors
+
+**Error Message:**  
+Unable to connect to application server
+
+### Investigation
+
+The SQL analysis showed that PC-002 had the highest number of recorded errors in the current dataset. The recurring E500 errors indicate that the application-server connection issue should be investigated further.
+
+### Troubleshooting Steps
+
+A Desktop Support technician could:
+
+1. Verify the workstation's network connection.
+2. Test connectivity to the application server.
+3. Verify DNS resolution.
+4. Check whether the application server is available.
+5. Verify required application services are running.
+6. Review Windows Event Viewer for related errors.
+7. Review application logs.
+8. Test the application from another workstation.
+9. Document the findings and troubleshooting performed.
+10. Escalate to the network, server, or application team if necessary.
+
+### Diagnostic Conclusion
+
+The SQL analysis does not independently determine the root cause. It helps identify the affected system and recurring error pattern so that the technician can focus the next troubleshooting steps.
 
 ## SQL Skills Demonstrated
 
+- SQL Server
+- SELECT statements
+- WHERE filtering
+- GROUP BY
+- ORDER BY
+- Aggregate functions
+- CASE statements
+- Date and time functions
+- Common Table Expressions (CTEs)
+- SQL Views
+- Data validation
+- Error analysis
+- Performance analysis
+- Diagnostic reporting
+
 ## Project Structure
+
+system-log-analysis-diagnostic-reporting/
+│
+├── SQL/
+│   ├── 01_Create_Database.sql
+│   ├── 02_Create_Table.sql
+│   ├── 03_Insert_Data.sql
+│   ├── 04_Data_Quality_Checks.sql
+│   ├── 05_Log_Analysis.sql
+│   └── 06_Diagnostic_Reports.sql
+│
+├── Documentation/
+│   └── Troubleshooting_Guide.md
+│
+├── Screenshots/
+│   ├── 02_data_quality_checks.jpg
+│   ├── 03_recurring_error_codes.png
+│   ├── 04_total_errors.png
+│   ├── 05_errors_by_computer.png
+│   └── ...
+│
+└── README.md
 
 ## Key Outcome
 
+This project demonstrates how SQL can be used as a technical troubleshooting tool in an IT Support environment.
+
+The analysis helps identify recurring errors, affected computers, error patterns, and performance issues so that support technicians can narrow the troubleshooting scope and determine appropriate next steps.
+
+The project also demonstrates the ability to document technical findings and follow a structured troubleshooting and escalation process.
+
 ## Disclaimer
+
+This is a portfolio project created for learning and demonstration purposes.
+
+The system logs, computer names, users, error codes, and troubleshooting scenarios are simulated and do not contain real company or customer information.
 
 
