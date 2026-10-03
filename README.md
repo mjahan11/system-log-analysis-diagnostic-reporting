@@ -177,7 +177,7 @@ The SQL analysis does not independently determine the root cause. It helps ident
 - Diagnostic reporting
 
 ## Project Structure
-
+```text
 system-log-analysis-diagnostic-reporting/
 │
 ├── SQL/
@@ -193,12 +193,12 @@ system-log-analysis-diagnostic-reporting/
 │
 ├── Screenshots/
 │   ├── 02_data_quality_checks.jpg
-│   ├── 03_recurring_error_codes.png
-│   ├── 04_total_errors.png
-│   ├── 05_errors_by_computer.png
-│   └── ...
+│   └── 03_recurring_error_codes.png
 │
 └── README.md
+```
+
+## Key Outcome
 
 ## Key Outcome
 
