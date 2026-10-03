@@ -83,8 +83,6 @@ Error codes were analyzed to identify recurring technical problems.
 
 ## Troubleshooting Workflow
 
-## Troubleshooting Workflow
-
 The log analysis is used as an initial diagnostic step to narrow the scope of a technical issue. The following workflow can be used by an IT Support or Desktop Support technician.
 
 ### Troubleshooting Steps
