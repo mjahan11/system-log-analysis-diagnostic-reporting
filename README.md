@@ -1,2 +1,66 @@
-# system-log-analysis-diagnostic-reporting
-SQL Server project analyzing system/application logs to identify recurring errors, performance issues, and troubleshooting patterns for IT Support.
+# System Log Analysis & Diagnostic Reporting
+
+## Overview
+
+This project simulates an IT Support / Desktop Support troubleshooting scenario using SQL Server to analyze system and application logs.
+
+The goal is to identify recurring technical issues, error codes, affected computers, performance problems, response-time issues, and error trends that can help support technicians investigate and troubleshoot incidents.
+
+---
+
+## Objective
+
+The project focuses on:
+
+- Identifying recurring system and application errors
+- Analyzing error codes and error frequency
+- Identifying affected computers and users
+- Investigating response-time and performance issues
+- Analyzing error trends by date and time
+- Supporting technical troubleshooting and escalation
+- Documenting troubleshooting procedures
+
+---
+
+## Technologies
+
+- SQL Server
+- SQL Server Management Studio (SSMS)
+
+## Project Architecture
+
+System / Application Logs -->SQL Server--> Data Quality Checks-->Log Analysis-->Diagnostic Reporting-->Troubleshooting Documentation
+
+## Database 
+
+- The project uses a SQL Server database named:
+    * IT_Log_Analysis
+
+## Data Quality Checks
+Before performing the analysis, SQL queries are used to validate the log data.
+
+The project checks for:
+
+Missing timestamps
+Missing computer names
+Duplicate records
+Invalid response times
+Incomplete log information
+
+
+## Log Analysis
+
+
+## Troubleshooting Workflow
+
+## Example Diagnostic Scenario
+
+## SQL Skills Demonstrated
+
+## Project Structure
+
+## Key Outcome
+
+## Disclaimer
+
+
