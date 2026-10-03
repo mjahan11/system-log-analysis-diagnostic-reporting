@@ -123,7 +123,6 @@ The log analysis is used as an initial diagnostic step to narrow the scope of a 
     Escalate the issue to the appropriate server, network, application, or security team when it cannot be resolved at the support level.
 
 ## Example Diagnostic Scenario
-## Example Diagnostic Scenario
 
 ### Application Server Connection Failure
 
