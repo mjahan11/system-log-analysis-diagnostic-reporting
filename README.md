@@ -70,7 +70,7 @@ SELECT
 FROM SystemLogs
 WHERE LogType = 'ERROR';
 
-<img width="975" height="548" alt="image" src="loganalsis1.jpg" />
+<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis1.jpg" />
 
 ## Troubleshooting Workflow
 
