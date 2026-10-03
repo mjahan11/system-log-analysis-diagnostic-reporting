@@ -58,6 +58,18 @@ The current dataset contains 20 records. The validation checks identified:
 
 ## Log Analysis
 
+SQL queries were developed to analyze system and application logs and identify recurring technical issues that may require further troubleshooting.
+
+### 1. Total System Errors
+
+The total number of error events was calculated to understand the overall error volume in the dataset.
+
+```sql
+SELECT
+    COUNT(*) AS TotalErrors
+FROM SystemLogs
+WHERE LogType = 'ERROR';
+
 
 ## Troubleshooting Workflow
 
