@@ -124,7 +124,19 @@ The log analysis is used as an initial diagnostic step to narrow the scope of a 
 
 A SQL view was created to provide a consolidated diagnostic report by computer. The report combines log volume, error counts, and response-time metrics to help support technicians identify systems requiring further investigation.
 
-<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis3.jpg" />
+<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis4.jpg" />
+
+## Diagnostic Report Result
+ One important finding from your current results
+
+Your report shows **PC-002** with:
+
+- **6 total logs**
+- **6 errors**
+- **3,333 ms average response time**
+- **4,200 ms maximum response time**
+
+That makes PC-002 an obvious system for a support technician to investigate further.
 
 
 ### Application Server Connection Failure
