@@ -63,7 +63,21 @@ SQL queries were developed to analyze system and application logs and identify r
 ### 1. Total System Errors
 
 The total number of error events was calculated to understand the overall error volume in the dataset.
+
+<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis2.jpg" />
+
+### 2 Errors by Computer
+
+Errors were grouped by computer to identify systems with a higher number of recorded errors.
+
+<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis3.jpg" />
+
+
+
+### 3. Recurring Error Codes
+Error codes were analyzed to identify recurring technical problems.
 <img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/loganalsis1.jpg" />
+
 
 
 
