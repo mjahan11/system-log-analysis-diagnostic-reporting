@@ -40,15 +40,21 @@ System / Application Logs -->SQL Server--> Data Quality Checks-->Log Analysis-->
 Before performing the analysis, SQL queries are used to validate the log data.
 <img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/Data-quality%20checks.jpg" />
 
-
 The project checks for:
 
-Missing timestamps
-Missing computer names
-Duplicate records
-Invalid response times
-Incomplete log information
+- Missing timestamps
+- Missing computer names
+- Duplicate records
+- Invalid response times
+- Incomplete log information
 
+### Validation Result
+
+The current dataset contains 20 records. The validation checks identified:
+
+- 0 missing timestamps
+- 0 missing computer names
+- 0 invalid response times
 
 ## Log Analysis
 
