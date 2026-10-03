@@ -38,7 +38,7 @@ System / Application Logs -->SQL Server--> Data Quality Checks-->Log Analysis-->
 
 ## Data Quality Checks
 Before performing the analysis, SQL queries are used to validate the log data.
-![Data Quality Checks]([Screenshots/Data-quality-checks.jpg](https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/Data-quality%20checks.jpg))
+<img width="975" height="548" alt="image" src="https://github.com/mjahan11/system-log-analysis-diagnostic-reporting/blob/main/Data-quality%20checks.jpg" />
 
 
 The project checks for:
