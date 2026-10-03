@@ -129,7 +129,7 @@ A SQL view was created to provide a consolidated diagnostic report by computer. 
 ## Diagnostic Report Result
  One important finding from your current results
 
-Your report shows **PC-002** with:
+our report shows **PC-002** with:
 
 - **6 total logs**
 - **6 errors**
