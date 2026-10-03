@@ -200,8 +200,6 @@ system-log-analysis-diagnostic-reporting/
 
 ## Key Outcome
 
-## Key Outcome
-
 This project demonstrates how SQL can be used as a technical troubleshooting tool in an IT Support environment.
 
 The analysis helps identify recurring errors, affected computers, error patterns, and performance issues so that support technicians can narrow the troubleshooting scope and determine appropriate next steps.
