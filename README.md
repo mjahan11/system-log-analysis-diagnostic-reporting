@@ -206,10 +206,6 @@ The analysis helps identify recurring errors, affected computers, error patterns
 
 The project also demonstrates the ability to document technical findings and follow a structured troubleshooting and escalation process.
 
-## Disclaimer
 
-This is a portfolio project created for learning and demonstration purposes.
-
-The system logs, computer names, users, error codes, and troubleshooting scenarios are simulated and do not contain real company or customer information.
 
 
